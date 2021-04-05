@@ -1,0 +1,30 @@
+{
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Source Code Pro Light",
+	"font_size": 21,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"AppleScript",
+		"ASP",
+		"C#",
+		"C++",
+		"Clojure",
+		"D",
+		"Erlang",
+		"Haskell",
+		"Java",
+		"LaTeX",
+		"Lisp",
+		"Vintage"
+	],
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"show_full_path": true,
+	"translate_tabs_to_spaces": true,
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"ui_font_source_code_pro": true,
+	"ui_wide_scrollbars": true
+}

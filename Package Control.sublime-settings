@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Advanced CSV",
+		"Base Encoder",
+		"Codec",
+		"Delete Current File",
+		"Dockerfile Syntax Highlighting",
+		"EML Syntax",
+		"Handlebars",
+		"Highlight Duplicates",
+		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
+		"Monokai Extended",
+		"Monokai JSON+",
+		"Package Control",
+		"Pretty JSON",
+		"Pretty Ruby",
+		"Show Character Code",
+		"Splunk Format",
+		"Splunk Syntax",
+		"sublack",
+		"SublimeLinter",
+		"TrailingSpaces"
+	]
+}
