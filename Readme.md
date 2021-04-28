@@ -24,8 +24,8 @@ Package Control.cache/
 Package Control.ca-certs/
 ```
 
-#ZSH Settings
+# ZSH Settings
 
-#iTerm Settings
+# iTerm Settings
 
-#subl Command
+# subl Command
