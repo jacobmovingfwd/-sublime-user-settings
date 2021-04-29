@@ -26,6 +26,11 @@ Package Control.ca-certs/
 
 # ZSH Settings
 
+Copy the `zsh_custom` folder to `~/.oh-my-zsh/custom`
+Copy the `zshrc` file to `~/.zshrc`
+
 # iTerm Settings
 
 # subl Command
+
+This should be handled in `zsh_custom/aliases.zsh`
