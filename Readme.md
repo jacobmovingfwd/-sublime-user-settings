@@ -26,10 +26,14 @@ Package Control.ca-certs/
 
 # ZSH Settings
 
-Copy the `zsh_custom` folder to `~/.oh-my-zsh/custom`
-Copy the `zshrc` file to `~/.zshrc`
+Copy `zsh_custom` folder to `~/.oh-my-zsh/custom`
+Copy `zshrc` file to `~/.zshrc`
+Copy `zshenv` file to `~/.zshenv`
 
 # iTerm Settings
+
+To save: In iterm _Preferences > Profiles_, export Profile to this repo.
+To load: In iterm _Preferences > Profiles_, import Profile json, set as Default.
 
 # subl Command
 
