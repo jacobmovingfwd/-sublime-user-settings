@@ -1,6 +1,18 @@
 These are the settings and preferences I like and want to copy to new machines.
 
-# Sublime Settings
+# Workstation Setup
+
+  1. install iterm
+  2. install sublime
+  3. Install oh-my-zsh from https://ohmyz.sh/
+  4. Install brew from http://brew.sh
+  5. `brew install python`
+  6. `brew install ruby`
+  7. `brew install  rbenv`
+
+
+
+# Copy Sublime Settings
 
 [Package Control Syncing](https://packagecontrol.io/docs/syncing)
 
@@ -24,11 +36,11 @@ Package Control.cache/
 Package Control.ca-certs/
 ```
 
-# ZSH Settings
+# Copy ZSH Settings
 
-Copy `zsh_custom` folder to `~/.oh-my-zsh/custom`
-Copy `zshrc` file to `~/.zshrc`
-Copy `zshenv` file to `~/.zshenv`
+Copy `zsh_custom` folder from/to `~/.oh-my-zsh/custom`
+Copy `zshrc` file from/to `~/.zshrc`
+Copy `zshenv` file from/to `~/.zshenv`
 
 # iTerm Settings
 
