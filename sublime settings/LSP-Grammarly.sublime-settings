@@ -1,0 +1,10 @@
+{
+  "settings":
+  {
+    "grammarly.config.documentDomain": "casual",
+    "grammarly.config.suggestions.Fluency": false,
+    "grammarly.config.suggestions.NumbersBeginningSentences": false,
+    "grammarly.config.suggestions.ReadabilityFillerwords": false,
+    "grammarly.config.suggestions.SpacesSurroundingSlash": false
+}
+}

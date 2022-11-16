@@ -1,0 +1,23 @@
+{
+  // http://www.sublimetext.com/docs/3/color_schemes.html
+  "variables": {
+    // "green": "#FF0000",
+  },
+  "globals": {
+    // "foreground": "var(green)",
+  },
+  "rules": [
+    {
+      // {"scope": "string",
+      // "foreground": "#00FF00"},
+        "name": "markdown-gfm checkbox",
+        "scope": "markup.checkbox.begin.markdown-gfm | markup.checkbox.end.markdown-gfm",
+        "foreground": "color(var(white) alpha(0.67))"
+    },
+    {
+      "name": "markdown-gfm checkmark",
+      "scope": "markup.checkbox.mark.markdown-gfm",
+      "foreground":"color(var(purple))"
+    }
+    ]
+}
