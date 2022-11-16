@@ -654,7 +654,7 @@ contexts:
 ###[ CONTAINER BLOCKS: LISTS ]################################################
 
   list-blocks:
-    - match: ([ \t]*)([*+-]*)((?:[ ](\[)([ xX])(\]))?\s)
+    - match: ([ \t!]*)([*+-]*)((?:[ ](\[)([ xX])(\]))?\s)
       captures:
         1: markup.list.unnumbered.markdown
         2: markup.list.unnumbered.bullet.markdown punctuation.definition.list_item.markdown
