@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.jlee05.git-auto.helper</string>
+
+    <key>ProgramArguments</key>
+      <array>
+        <string>/Users/jlee05/daily\ notes/git-auto</string>
+        <string>-p</string>
+      </array>
+
+    <key>EnvironmentVariables</key>
+      <dict>
+        <key>PATH</key>
+        <string>/bin:/usr/bin:/usr/local/bin</string>
+      </dict>
+  <!-- run every 20 seconds. Shouldn't be needed as the script keeps itself up.
+    <key>StartInterval</key>
+    <integer>20</integer>
+  -->
+
+    <!-- Nice values of -20 to 20. lower numbers are higher priority. 0 is default, only Daemons can use negative values. -->
+    <key>Nice</key>
+      <integer>1</integer>
+
+    <!-- When the file loads, run it. Not very useful otherwise... -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <!-- Only KeepAlive if the network is up -->
+    <dict>
+      <key>NetworkState</key>
+      <true/>
+    </dict>
+
+    <!-- if it goes down, throttle for an hour before keep alive -->
+    <key>ThrottleInterval</key>
+      <integer>3600</integer>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/gitauto.err</string>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/gitauto.out</string>
+
+  </dict>
+</plist>
