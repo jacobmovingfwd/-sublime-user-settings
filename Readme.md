@@ -9,6 +9,8 @@ These are the settings and preferences I like and want to copy to new machines.
   5. `brew install python`
   6. `brew install ruby`
   7. `brew install  rbenv`
+  8. Clone `daily notes` repo to `$HOME`.
+  9. Copy `com.jacob.cron.plist` to `$HOME/Library/LaunchAgents`.
 
 
 
