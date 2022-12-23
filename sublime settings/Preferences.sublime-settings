@@ -35,4 +35,5 @@
 	// MarkdownEditing optons
 	"mde.lint": {"md003": "atx","md004": "single",},
 	"mde.list_indent_auto_switch_bullet": false,
+	"mde.italic_marker_asterisk": false,
 }
